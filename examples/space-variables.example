@@ -1,0 +1,28 @@
+# Copy this file to .env.local and fill values locally.
+# Never commit real secrets.
+
+# Public/non-secret variables
+APP_URL=https://ahmedtouhid88-lobehub-huggingface-template.hf.space
+INTERNAL_APP_URL=http://localhost:3210
+DATABASE_DRIVER=node
+AUTH_SSO_PROVIDERS=google
+AUTH_DISABLE_EMAIL_PASSWORD=1
+OPENAI_PROXY_URL=https://your-litellm-space.hf.space/v1
+ENABLED_UPLOAD=1
+ENABLED_KNOWLEDGE_BASE=1
+S3_ENDPOINT=https://your-s3-compatible-endpoint
+S3_BUCKET=your-bucket-name
+S3_REGION=your-region
+S3_ENABLE_PATH_STYLE=1
+S3_SET_ACL=0
+
+# Secrets
+DATABASE_URL=
+KEY_VAULTS_SECRET=
+AUTH_SECRET=
+JWKS_KEY=
+AUTH_GOOGLE_ID=
+AUTH_GOOGLE_SECRET=
+OPENAI_API_KEY=
+S3_ACCESS_KEY_ID=
+S3_SECRET_ACCESS_KEY=
