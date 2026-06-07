@@ -52,6 +52,7 @@ $allowedKeys = [System.Collections.Generic.HashSet[string]]::new([StringComparer
     'AUTH_GOOGLE_SECRET',
     'OPENAI_PROXY_URL',
     'OPENAI_API_KEY',
+    'ENABLED_OPENAI',
     'ENABLED_UPLOAD',
     'ENABLED_KNOWLEDGE_BASE',
     'S3_ENDPOINT',
