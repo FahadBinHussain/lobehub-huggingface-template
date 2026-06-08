@@ -88,6 +88,7 @@ INTERNAL_APP_URL=http://localhost:3210
 DATABASE_DRIVER=node
 AUTH_SSO_PROVIDERS=google
 AUTH_DISABLE_EMAIL_PASSWORD=1
+AUTH_TRUSTED_ORIGINS=https://ahmedtouhid88-lobehub-huggingface-template.hf.space
 OPENAI_PROXY_URL=https://your-litellm-space.hf.space/v1
 ENABLED_OPENAI=1
 ENABLED_UPLOAD=1
@@ -100,6 +101,8 @@ S3_SET_ACL=0
 ```
 
 Do not commit real values. Use `examples/space-variables.example` as a shape reference only.
+
+Current LobeHub images auto-detect the auth URL from request headers. Do not set `NEXT_PUBLIC_AUTH_URL`; the container treats it as a deprecated auth variable and refuses to start.
 
 ## Sync Helper
 

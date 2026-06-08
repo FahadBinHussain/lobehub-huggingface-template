@@ -48,6 +48,7 @@ $allowedKeys = [System.Collections.Generic.HashSet[string]]::new([StringComparer
     'JWKS_KEY',
     'AUTH_SSO_PROVIDERS',
     'AUTH_DISABLE_EMAIL_PASSWORD',
+    'AUTH_TRUSTED_ORIGINS',
     'AUTH_GOOGLE_ID',
     'AUTH_GOOGLE_SECRET',
     'OPENAI_PROXY_URL',

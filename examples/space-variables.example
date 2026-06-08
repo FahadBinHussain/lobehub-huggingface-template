@@ -7,6 +7,7 @@ INTERNAL_APP_URL=http://localhost:3210
 DATABASE_DRIVER=node
 AUTH_SSO_PROVIDERS=google
 AUTH_DISABLE_EMAIL_PASSWORD=1
+AUTH_TRUSTED_ORIGINS=https://ahmedtouhid88-lobehub-huggingface-template.hf.space
 OPENAI_PROXY_URL=https://your-litellm-space.hf.space/v1
 ENABLED_OPENAI=1
 ENABLED_UPLOAD=1
