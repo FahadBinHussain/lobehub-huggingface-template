@@ -1,4 +1,4 @@
-ARG LOBEHUB_IMAGE=lobehub/lobehub:latest
+ARG LOBEHUB_IMAGE=lobehub/lobehub:2.2.10
 FROM ${LOBEHUB_IMAGE}
 
 # LobeHub's official image listens on 3210. Hugging Face routes this through
